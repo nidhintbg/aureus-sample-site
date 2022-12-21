@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aureus</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <section id="landing">
+        <nav>
+            <div class="nav__container">
+                    <img src="./assets/Aureus Logo.png" class="logo" alt="">
+                    <ul class="nav__links">
+                        <li><a href="#about" class="nav__link">About</a></li>
+                        <li><a href="#lessons" class="nav__link">Music Lessons</a></li>
+                        <li><a href="#contact" class="nav__link">Contact</a></li>
+                        <li><a href="#trialform" class="nav__link nav__link--primary">Book a Free Trial</a></li>
+                    </ul>
+                    <button class="btn__menu" onclick="openMenu ()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="menu__backdrop">
+                        <button class="btn__menu btn__menu--close" onclick="closeMenu ()">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <ul class="menu__links">
+                            <li class="menu__list">
+                                <a href="#" class="menu__link" onclick="closeMenu ()">Home</a>
+                            </li>
+                            <li class="menu__list">
+                                <a href="#features" class="menu__link" onclick="closeMenu ()">Lessons</a>
+                            </li>
+                            <li class="menu__list">
+                                <a href="#" class="menu__link" onclick="closeMenu ()">Book a Free Trial</a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+        <header class="header">
+            <div class="header__container">
+                
+                     <div class="header__description">
+                        <h1>Music for everyone!</h1>
+                        <h2>Welcome to Aureus Academy, where music brings meaning to our lives! All of us at Aureus Academy are passionate about music and the gift of music is what brings us all together. We want to share the gift of music with you as you start your musical journey at Aureus Academy!</h2>
+                        <a href="#trialform"><button class="btn">Book a Free Trial</button></a>
+                    <div class="header__row"> 
+                        <figure class="header__img--wrapper">
+                            <img src="./assets/header image.png" alt="" width="780px">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+    <main>
+        <section id="lessons">
+         <div class="container">
+             <h2 class="section__title">Lessons Offered</h2>
+                
+             <div class="lessons__row">
+                
+                    <div class="lesson">
+                        <div class="lesson__img--wrapper">
+                            <img class="lesson__img" src="https://assets-global.website-files.com/6317ed48f9c5ebfe7281d990/6317efb24ef3d65628a1c0af_Piano-p-500.png" width="54px" alt="">
+                        </div>
+                            <h3 class="lesson__title">Piano Lessons</h3>
+                            <p class="lesson__para">Suitable for ages 4 and above</p>
+                    </div>
+                    <div class="lesson">
+                        <div class="lesson__img--wrapper">
+                            <img class="lesson__img"src="https://assets-global.website-files.com/6317ed48f9c5ebfe7281d990/6317efb311126f6c4fd30b9d_Violin-p-500.png" width="54px" alt="">
+                        </div>
+                            <h3 class="lesson__title">Violin Lessons</h3>
+                            <p class="lesson__para">Suitable for ages 5 and above</p>
+                    </div>
+                    <div class="lesson">
+                        <div class="lesson__img--wrapper">
+                            <img class="lesson__img"src="https://assets-global.website-files.com/6317ed48f9c5ebfe7281d990/6317efb2f1784e4d4752df05_ME-p-500.png" width="54px" alt="">
+                        </div>
+                            <h3 class="lesson__title">Music Exploration</h3>
+                            <p class="lesson__para">Suitable for ages 3 and below</p>
+                    </div>
+                    <div class="lesson">
+                        <div class="lesson__img--wrapper">
+                            <img class="lesson__img"src="https://assets-global.website-files.com/6317ed48f9c5ebfe7281d990/6317efb293e35151df9b36ca_Guitar-p-500.png" width="54px" alt="">
+    
+                        </div>
+                            <h3 class="lesson__title">Guitar Lessons</h3>
+                            <p class="lesson__para">Suitable for ages 6 and above</p>
+                    </div>
+                    <div class="lesson">
+                        <div class="lesson__img--wrapper">
+                           <img class="lesson__img"src="https://assets-global.website-files.com/6317ed48f9c5ebfe7281d990/6317efb2c3f7c01569ca21d4_Voice-p-500.png" width="54px" alt=""> 
+                        </div>
+                            <h3 class="lesson__title">Vocal Lessons</h3>
+                            <p class="lesson__para">Suitable for ages 4 and above</p>
+                    </div>
+                    <div class="lesson">
+                        <div class="lesson__img--wrapper">
+                            <img class="lesson__img"src="https://assets-global.website-files.com/6317ed48f9c5ebfe7281d990/6317efb2c179cc5c585cb14c_Drums-p-500.png" width="54px" alt="">
+                        </div>
+                            <h3 class="lesson__title">Drums Lessons</h3>
+                            <p class="lesson__para">Suitable for ages 5 and above</p>
+                    </div>
+                    <div class="lesson">
+                        <div class="lesson__img--wrapper">
+                            <img class="lesson__img"src="https://assets-global.website-files.com/6317ed48f9c5ebfe7281d990/6317efb2401e89e427754f26_Cello-p-500.png" width="54px" alt="">
+                        </div>
+                            <h3 class="lesson__title">Cello Lessons</h3>
+                            <p class="lesson__para">Suitable for ages 6 and above</p>
+                    </div>
+                    <div class="lesson">
+                        <div class="lesson__img--wrapper">
+                            <img class="lesson__img"src="https://assets-global.website-files.com/6317ed48f9c5ebfe7281d990/63299ccc8a18b21cc168cd5f_ukulele-01-p-1080.png" width="54px" alt="">
+                        </div>
+                            <h3 class="lesson__title">Ukelele Lessons</h3>
+                            <p class="lesson__para">Suitable for ages 5 and above</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="features">
+        <div class="features__container">
+            
+            <h2 class="features__title">Why choose<span class="orange"> Aureus?</span></h2>
+            
+            <div class="features__row">
+
+    <div class="feature">
+        <figure class="feature__img--wrapper">
+            <img class="feature__img" src="https://assets-global.website-files.com/6317ed48f9c5ebfe7281d990/6322bf96cdc1182c3cb9343c_teachers%20icon-01-p-1080.png" alt="" width="108px" height="108px">
+        </figure>
+        <h3 class="feature__title"> Specialised teachers</h3> 
+        
+        <p class="feature__para">All our teachers are qualified and trained to work with students of all ages and abilities, but goal is to match you or your child with a teacher that inspires you!</p>
+    </div>
+    <div class="feature">
+                    <figure class="feature__img--wrapper">
+                        <img class="feature__img" src="https://assets-global.website-files.com/6317ed48f9c5ebfe7281d990/631a93854dbf9b542599838d_studio-01-p-500.png" alt="" width="108px">
+                    </figure>
+                    <h3 class="feature__title"> 1-to-1 lessons</h3>
+                    
+                    <p class="feature__para">We here at Aureus believe that every child is different, so we believe that they should be given individualised attention and care.</p>
+                </div>
+                <div class="feature">
+                    <figure class="feature__img--wrapper"">
+                        <img class="feature__img" src="https://assets-global.website-files.com/6317ed48f9c5ebfe7281d990/631a93959732deb5700eab73_schedule-01-p-500.png" alt="" width="108px">
+                    </figure>
+                    <h3 class="feature__title"> Aureus App</h3>
+                    
+                    <p class="feature__para">Cancel, reschedule and book lessons easily, with just a few touches in your phone!</p>
+                </div>
+                <div class="feature">
+                    <figure class="feature__img--wrapper">
+                        <img class="feature__img" src="https://assets-global.website-files.com/6317ed48f9c5ebfe7281d990/631a9396e51c34986c9d2940_performance-01-p-500.png" alt="" width="108px">
+                    </figure>
+                    <h3 class="feature__title"> Performance opportunities</h3>
+                    
+                    <p class="feature__para">Students get the opportunity to perform up to twice-a-year at our recital halls to showcase their progress.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="trialform">
+        <div class="trial__container">
+            <h2 class="orange trialform__title">Book a Free 1-on-1 Trial Lesson</h2>
+            <form class="form" action=>
+                    <span class="trial__email">Email:
+                    <input class="email" type="text" placeholder="john@gmail.com" name="" id="">
+                    <button class="btn">Book a Free Trial</button></a>
+                </span>
+                </form>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="row row__column">
+              <a href="#">
+                <figure class="footer__logo">
+                  <img src="./assets/Library.svg" class="footer__logo--img" alt="">
+                </figure>
+              </a>
+              <div class="footer__list">
+                <a href="#" class="footer__link">Home</a>
+                
+                <a href="#lessons" class="footer__link">Lessons</a>
+                <a href="#trialform" class="footer__link">Book a Free Trial</a>
+              </div>
+              <div class="footer__copyright">Copyright &copy; 2022 Nidhin Ramesh ;)</div>
+            </div>
+          </div>
+    </footer>
+</body>
+</html>
